@@ -1,0 +1,49 @@
+.navbar-container {
+  position: relative;
+  width: 100%;
+  min-height: 7.6rem;
+}
+.navbar-name-link {
+  @include all_fonts_styles($fs-lg, $fw-light, Inter-light, $white-color);
+  transition: all ease-in-out 0.3s;
+  &:hover {
+    color: $purple-color;
+    transition: all ease-in-out 0.3s;
+  }
+}
+.navbar-link {
+  @include all_fonts_styles($fs-md, $fw-light, Inter-light, $white-color);
+  transition: all ease-in-out 0.3s;
+  &:hover {
+    color: $purple-color;
+    transition: all ease-in-out 0.3s;
+  }
+}
+.mobile-menu-icon {
+  color: $white-color;
+  cursor: pointer;
+}
+.mobile-menu-container {
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  background-color: $white-color;
+  height: 12.5rem;
+  width: 100%;
+}
+.mobile-menu-show {
+  transform: translateX(0);
+  transition: all ease 1s;
+}
+.mobile-menu-hide {
+  transform: translateX(+110%);
+  transition: all ease 1s;
+}
+.mobile-menu-navbar-link {
+  @include all_fonts_styles($fs-md, $fw-light, Inter-light, $black-color);
+  border-bottom: 1px solid $black-color;
+  &:hover {
+    color: $purple-color;
+    transition: all ease-in-out 0.3s;
+  }
+}
