@@ -1,0 +1,26 @@
+.home-introduction-container {
+  @include all_fonts_styles($fs-normal, $fw-light, Inter-light, $white-color);
+  & > b {
+    @include all_fonts_styles($fs-md, $fw-medium, Inter-medium, $white-color);
+  }
+}
+.home-introduction-name-text {
+  background: $purple-color;
+  background: linear-gradient(
+    90deg,
+    $purple-color 0%,
+    $x-blue-color 40%,
+    $red-color 80%
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  @include all_fonts_styles($fs-xxxl, $fw-medium, Inter-medium, transparent);
+  @include mobile {
+    font-size: $fs-xxl;
+  }
+}
+.home-introduction-name-text-b {
+  color: $red-color !important;
+}
