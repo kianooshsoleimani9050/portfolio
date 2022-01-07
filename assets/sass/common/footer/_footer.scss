@@ -1,0 +1,17 @@
+.footer-container {
+  border-top: 1px solid $white-color;
+}
+.footer-social-link {
+  height: 3rem;
+  //   min-width: 13.125rem;
+  border: 1px solid $gray-color;
+  border-radius: 5px;
+  @include all_fonts_styles($fs-normal, $fw-light, Inter-light, $gray-color);
+  transition: all ease-in-out 0.3s;
+  &:hover {
+    border-color: $purple-color;
+    color: $purple-color;
+    background-color: $white-color;
+    transition: all ease-in-out 0.3s;
+  }
+}
