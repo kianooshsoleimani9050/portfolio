@@ -1,0 +1,11 @@
+.layout-container {
+  padding: 0 11.25rem !important;
+  @include tablet {
+    padding: 0 5.625rem !important;
+  }
+  @include mobile {
+    & {
+      padding: 0 0.5rem !important;
+    }
+  }
+}
