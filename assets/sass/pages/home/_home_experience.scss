@@ -1,0 +1,19 @@
+.home-experience-title {
+  @include all_fonts_styles($fs-md, $fw-light, Inter-light, $white-color);
+}
+.home-single-experience-title {
+  @include all_fonts_styles($fs-lg, $fw-light, Inter-light, $white-color);
+}
+.home-single-experience-date {
+  @include all_fonts_styles($fs-normal, $fw-light, Inter-light, $gray-color);
+}
+.home-single-experience-name {
+  @include all_fonts_styles($fs-sm, $fw-light, Inter-light, $gray-color);
+}
+.home-single-experience-where {
+  @include all_fonts_styles($fs-sm, $fw-light, Inter-light, $blue-color);
+}
+.home-single-experience-desc {
+  @include all_fonts_styles($fs-normal, $fw-light, Inter-light, $gray-color);
+  text-align: justify;
+}
