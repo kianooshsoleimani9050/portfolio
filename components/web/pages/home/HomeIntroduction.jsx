@@ -1,6 +1,10 @@
 const HomeIntroduction = () => {
   return (
-    <div className="p-2 p-md-0 py-2 py-md-5 m-0 mb-4 my-md-5 home-introduction-container">
+    <div
+      data-aos="fade-right"
+      data-aos-duration="1000"
+      className="p-2 p-md-0 py-2 py-md-5 m-0 mb-4 my-md-5 home-introduction-container"
+    >
       {"Hey, I'm"}
       <h1 className="home-introduction-name-text">Kianoosh Soleimani</h1>
       <b className="home-introduction-name-text-b">
