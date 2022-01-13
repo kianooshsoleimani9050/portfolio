@@ -9,9 +9,9 @@ import Head from "next/head";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      {/* <Head>
-        <link rel="shortcut icon" href={""} />
-      </Head> */}
+      <Head>
+        <link rel="shortcut icon" href="/icons/kianoosh.png" />
+      </Head>
       <WebLayout>
         <Component {...pageProps} />
       </WebLayout>
