@@ -1,3 +1,4 @@
+import Image from "next/image";
 import MobileHeader from "./MobileHeader";
 import { ActiveNavLink, NavBar, NavBarItem, NavLink } from "./Navbar";
 
@@ -5,7 +6,15 @@ const Header = () => {
   return (
     <NavBar>
       <NavBarItem col="col-10 col-md-6 p-0 m-0">
-        <NavLink className="p-0 m-0 navbar-link">KIANOOSH SOLEIMANI</NavLink>
+        <NavLink className="p-0 m-0 navbar-link d-flex align-items-center">
+          <Image
+            src="/icons/kianoosh.png"
+            alt="kianoosh"
+            width={40}
+            height={40}
+          />
+          <span className="mx-2">KIANOOSH SOLEIMANI</span>
+        </NavLink>
       </NavBarItem>
       <NavBarItem
         col="d-none d-md-block col-6"
