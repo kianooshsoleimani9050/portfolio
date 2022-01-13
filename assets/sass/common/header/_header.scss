@@ -2,6 +2,7 @@
   position: relative;
   width: 100%;
   min-height: 7.6rem;
+  z-index: 10;
 }
 .navbar-name-link {
   @include all_fonts_styles($fs-lg, $fw-light, Inter-light, $white-color);
